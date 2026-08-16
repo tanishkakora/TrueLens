@@ -1,4 +1,4 @@
-from app.model_loader import model
+from app.model_loader import get_model
 from app.crud import save_prediction
 
 from fastapi import UploadFile, HTTPException
@@ -32,6 +32,9 @@ async def get_prediction(user_id: str, file: UploadFile):
 
     # Xception preprocessing
     img = preprocess_input(img)
+
+    # Load model only when prediction is requested
+    model = get_model()
 
     # Model prediction
     probability = float(
