@@ -7,3 +7,4 @@ python-multipart
 motor
 pymongo
 python-dotenv
+python-jose
