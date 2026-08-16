@@ -1,0 +1,140 @@
+.Heading {
+    color: #c5b8b8;
+    font-size: 42px;
+    font-weight: 900;
+    letter-spacing: 1px;
+    margin-bottom: 50px;
+}
+
+.Heading span {
+    color: #ef4444;
+}
+
+.outersp {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background-image: url("./../assets/deepfake\ background\ image.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.outersp::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(10, 15, 25, 0.45);
+}
+
+.Heading,
+.innersp {
+    position: relative;
+    z-index: 1;
+}
+
+.innersp {
+    background-color: #1b2435;
+    width: 30%;
+    min-width: 380px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+    padding: 35px;
+}
+
+.innersp h2 {
+    color: #c5b8b8;
+}
+
+.innersp button {
+    width: 85%;
+    padding: 14px;
+    border: none;
+    border-radius: 10px;
+    background: #ef4444;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.innersp button:hover {
+    background: #dc2626;
+    transform: translateY(-3px);
+    box-shadow: 0 12px 25px rgba(239, 68, 68, .35);
+    
+}
+
+.signupsp {
+    color: #c5b8b8;
+}
+
+.signupsp a {
+    color: #ef4444;
+    text-decoration: none;
+    display: inline-block;
+    transition: .3s;
+}
+
+.signupsp a:hover {
+    transform: translateY(-2px);
+    text-shadow: 0 0 8px rgba(239, 68, 68, .5);
+}
+
+.innersp input {
+    width: 85%;
+    padding: 14px;
+    border: 1px solid #3a4255;
+    border-radius: 10px;
+    background: #111827;
+
+    font-size: 16px;
+    outline: none;
+    transition: 0.3s;
+    background: #101826;
+    background: #101826;
+    color: white;
+    border: 1px solid #374151;
+}
+
+
+
+.innersp input:focus {
+    border-color: #ef4444;
+    box-shadow: 0 0 10px rgba(239, 68, 68, .3);
+}
+
+.innersp {
+    box-shadow: 0 20px 45px rgba(0, 0, 0, .35);
+}
+
+.innersp {
+    background: rgba(27, 36, 53, 0.75);
+    backdrop-filter: blur(15px);
+    border: 1px solid rgba(255, 255, 255, .08);
+    box-shadow: 0 25px 50px rgba(0, 0, 0, .45);
+}
+
+input{
+    background: #101826;
+    color: grey;
+    border: 1px solid #374151;
+}
+
+.innersp input:-webkit-autofill,
+.innersp input:-webkit-autofill:hover,
+.innersp input:-webkit-autofill:focus,
+.innersp input:-webkit-autofill:active {
+    -webkit-box-shadow: 0 0 0 1000px #101826 inset !important;
+    -webkit-text-fill-color: rgb(128, 128, 128) !important;
+    border: 1px solid #374151;
+    transition: background-color 5000s ease-in-out 0s;
+}

@@ -1,0 +1,145 @@
+
+.detection {
+    min-height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0 2rem;
+}
+
+.detection h1 {
+    font-size: 3.5rem;
+    color: #fff;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+
+.detection p {
+    width: min(700px, 90%);
+    color: #c5b8b8;
+    font-size: 1.15rem;
+    line-height: 1.8;
+    margin-bottom: 35px;
+}
+
+.hero-buttons {
+    display: flex;
+    gap: 20px;
+}
+
+.predict-btn,
+.learn-btn {
+    text-decoration: none;
+    padding: 14px 32px;
+    border-radius: 12px;
+    font-weight: 600;
+    transition: .3s;
+}
+
+.predict-btn {
+    background: #ef4444;
+    color: white;
+}
+
+.learn-btn {
+    border: 2px solid #ef4444;
+    color: #ef4444;
+}
+
+.predict-btn:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 15px 35px rgba(239, 68, 68, .35);
+}
+
+.learn-btn:hover {
+    background: #ef4444;
+    color: white;
+    transform: translateY(-4px);
+}
+
+.stats {
+    width: 90%;
+    text-align: center;
+    margin: 0 auto 100px;
+}
+
+.stats h3 {
+    color: #fff;
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.stats>p {
+    color: #c5b8b8;
+    width: min(650px, 90%);
+    margin: auto;
+    line-height: 1.6;
+}
+
+.cards {
+    margin-top: 60px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 35px;
+}
+
+.stat-card {
+    background: #141b29;
+    border: 1px solid #252f3f;
+    border-radius: 18px;
+    padding: 35px 25px;
+    transition: .35s;
+    
+    position: relative;
+    z-index: 1;
+}
+
+.stat-card:hover {
+    transform: translateY(-10px);
+    border-color: #ef4444;
+    box-shadow: 0 25px 45px rgba(0, 0, 0, .35);
+    position: relative;
+    z-index: 2;
+}
+
+.stats p {
+    color: #c5b8b8
+}
+
+.stat-card img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 12px;
+    margin-bottom: 20px;
+}
+
+.stat-card h4{
+     background-color:#141b29;
+    color:white;
+    font-size:1.3rem;
+    margin-bottom:20px;
+}
+
+
+.number{
+    background-color:#141b29;
+    display:block;
+    font-size:2.5rem;
+    font-weight:700;
+    color:#ef4444;
+    margin-bottom:10px;
+}
+
+.text{
+     background-color:#141b29;
+    color:#b8c0cc;
+    line-height:1.7;
+    font-size:.95rem;
+}
+
+.info{
+    background-color:#141b29;
+}

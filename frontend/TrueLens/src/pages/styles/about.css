@@ -1,0 +1,167 @@
+.about-page{
+    width:100%;
+    color:#d1d5db;
+}
+
+section{
+    width:90%;
+    max-width:1200px;
+    margin:70px auto;
+}
+
+
+.hero{
+    text-align:center;
+    padding:80px 20px;
+}
+
+.hero h1{
+    color:#fff;
+    font-size:3rem;
+    margin-bottom:20px;
+}
+
+.hero p{
+    max-width:700px;
+    margin:auto;
+    color:#94a3b8;
+    font-size:1.1rem;
+    line-height:1.8;
+}
+
+.mission,
+.working,
+.features,
+.techstack,
+.why,
+.dev{
+    background:#141b29;
+    border:1px solid #252f3f;
+    border-radius:18px;
+    padding:40px;
+    transition:.3s;
+    
+}
+
+.mission:hover,
+.working:hover,
+.features:hover,
+.techstack:hover,
+.why:hover,
+.dev:hover{
+    transform:translateY(-6px);
+    border-color:#ef4444;
+    box-shadow:0 20px 45px rgba(0,0,0,.35);
+}
+
+section h2{
+    color:#fff;
+    font-size:2rem;
+    margin-bottom:25px;
+}
+
+section p{
+    color:#b8c0cc;
+    line-height:1.8;
+}
+
+
+.steps{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    gap:20px;
+    flex-wrap:wrap;
+}
+
+.step{
+    flex:1;
+    min-width:180px;
+    background:#1b2435;
+    border-radius:14px;
+    padding:25px;
+    text-align:center;
+}
+
+.icon{
+    font-size:2.2rem;
+    margin-bottom:15px;
+}
+
+.step h3{
+    color:white;
+    margin-bottom:10px;
+}
+
+.arrow{
+    font-size:2rem;
+    color:#ef4444;
+}
+
+.feature-grid{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:25px;
+}
+
+.feature-card{
+    background:#1b2435;
+    padding:25px;
+    border-radius:14px;
+    text-align:center;
+}
+
+
+
+.stack-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(180px,1fr));
+    gap:25px;
+}
+
+.stack-card{
+    background:#1b2435;
+    border-radius:14px;
+    padding:25px;
+    text-align:center;
+}
+
+.stack-card h3{
+    color:#ef4444;
+    margin-bottom:15px;
+}
+
+.stack-card p{
+    margin:8px 0;
+}
+
+
+.why p{
+    margin-bottom:20px;
+}
+
+
+.dev{
+    text-align:center;
+}
+
+.dev h3{
+    color:#ef4444;
+    margin:15px 0;
+}
+
+.socials{
+    margin-top:25px;
+    display:flex;
+    justify-content:center;
+    gap:25px;
+}
+
+.socials a{
+    text-decoration:none;
+    color:#ef4444;
+    font-weight:600;
+}
+
+
+

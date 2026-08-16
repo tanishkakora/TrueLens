@@ -1,0 +1,51 @@
+.name {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    cursor: pointer;
+    user-select: none;
+}
+
+.name-icon {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background: linear-gradient(135deg, #dc2626, #7f1d1d);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 22px;
+    font-weight: bold;
+    box-shadow: 0 0 20px rgba(220, 38, 38, 0.45);
+    transition: all 0.3s ease;
+}
+
+.name:hover .name-icon {
+    transform: rotate(10deg) scale(1.08);
+    box-shadow: 0 0 30px rgba(220, 38, 38, 0.7);
+}
+
+.name-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.name-title {
+    color: #c5b8b8;
+    font-size: 28px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.name-title span {
+    color: #ef4444;
+}
+
+.name-subtitle {
+    color: #9ca3af;
+    font-size: 12px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-top: 2px;
+}
